@@ -4,6 +4,7 @@ metadata:
   namespace: default
   name: test-service
 spec:
+  type: LoadBalancer
   selector:
     app: test-app
   ports:
