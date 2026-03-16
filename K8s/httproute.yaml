@@ -8,7 +8,9 @@ spec:
     - name: wildcard-gateway
       namespace: gateway-system
   hostnames:
-    - "*.cybersyntric.online"
+    - "test1.cybersyntric.online"
+    - "test2.cybersyntric.online"
+    - "api.cybersyntric.online"
   rules:
     - backendRefs:
         - name: test-service
