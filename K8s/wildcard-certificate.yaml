@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: wildcard-cybersyntric
-  namespace: cert-manager
+  namespace: gateway-system
 spec:
   secretName: wildcard-cybersyntric-tls
   issuerRef:
