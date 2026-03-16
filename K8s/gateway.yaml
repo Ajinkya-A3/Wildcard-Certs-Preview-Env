@@ -16,12 +16,12 @@ spec:
     - name: wildcard-https
       protocol: HTTPS
       port: 443
-      hostname: "*.cybersyntric.online"
+      hostname: "*.example.com"
       tls:
         mode: Terminate
         certificateRefs:
           - kind: Secret
-            name: wildcard-cybersyntric-tls
+            name: wildcard-tls
       allowedRoutes:
         namespaces:
           from: All

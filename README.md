@@ -87,7 +87,7 @@ Create a wildcard DNS record.
 
   Type   Name   Value
   ------ ------ ------------
-  A      \*     GATEWAY_IP
+  A       *     GATEWAY_IP
 ```
 
 Example:
