@@ -13,15 +13,15 @@ spec:
         namespaces:
           from: All
 
-    # - name: wildcard-https
-    #   protocol: HTTPS
-    #   port: 443
-    #   hostname: "*.cybersyntric.online"
-    #   tls:
-    #     mode: Terminate
-    #     certificateRefs:
-    #       - kind: Secret
-    #         name: wildcard-cybersyntric-tls
-    #   allowedRoutes:
-    #     namespaces:
-    #       from: All
+    - name: wildcard-https
+      protocol: HTTPS
+      port: 443
+      hostname: "*.cybersyntric.online"
+      tls:
+        mode: Terminate
+        certificateRefs:
+          - kind: Secret
+            name: wildcard-cybersyntric-tls
+      allowedRoutes:
+        namespaces:
+          from: All
