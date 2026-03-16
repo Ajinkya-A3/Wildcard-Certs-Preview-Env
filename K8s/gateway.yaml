@@ -5,9 +5,6 @@ metadata:
   namespace: gateway-system
 spec:
   gatewayClassName: gke-l7-global-external-managed
-  addresses:
-    - type: NamedAddress
-      value: solvox-gateway-ip
   listeners:
     - name: http
       protocol: HTTP
